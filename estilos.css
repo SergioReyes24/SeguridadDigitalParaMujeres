@@ -1,0 +1,199 @@
+/*Fuentes de texto importadas de google fonts para darle una estética distinta a la página web.*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+
+nav{ /*Estos estilos se encargan de darle forma, color, tamaño y textura al nav. */
+    background: rgb(255, 162, 201); 
+    border-style: solid; 
+    border-color: rgb(197, 56, 216); 
+    border-width: 5px; 
+    background-image: url(./IMG/pa2.jpg);
+    background-size: 30px;
+    border-radius: 10px 100px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.menu { /*Estilo para las secciones del menú. */
+    color: rgb(80, 3, 54);
+    text-decoration: none;
+}
+.menu:hover{ /*Estilo de color al poner el click encima de las secciones del menú. */
+    color: white;
+}
+
+.menu:active{ /*Estilo de color al presionar en las secciones del menú. */
+    color: rgb(200, 25, 223);
+}
+
+li{ /*Le cambia la fuente, ordena los temas, les da color y los coloca verticalmente en el nav. */
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 2px 8px;
+    color: rgb(252, 245, 249);
+    vertical-align: middle;
+}
+
+li:hover{ /*Le cambia el color a los temas del nav cuando el mouse pasa por encima. */
+    color: rgb(15, 1, 9);
+}
+
+#flecha{ /*El fondo de la flecha es transparente, se le otorga un fondo de un color y tamaño para que cuando se cambie de color con el valor active haga un efecto de presión. */
+    width: 80px; 
+    position: fixed; 
+    right: 10px; 
+    bottom: 30px;
+    background-color: white;
+    border-radius: 60%;
+    background-image: url(./IMG/flecha-transparente.png);
+}
+
+#flecha:active{ /*Cuando se presiona la flecha, esta propiedad le da un color de fondo distinto que hace parecer que hace una animación de subida y no se vea estático como antes. */
+    background-color: violet;
+}
+
+.logo{ /*Determina el tamaño del logo para el nav. */
+    width: 70px; 
+    height: 88px;
+}
+
+body{ /*Determina el margen izquierdo y derecho del cuerpo de la página web, así como el color de fondo. */
+    margin-left: 90px; 
+    margin-right: 90px;
+    background-color: rgb(255, 210, 251);
+}
+
+#titulo{ /*Todas las modificaciones para que el titulo tenga sombra, color, fondo, alineación y forma adecuados.*/
+    text-align: center; 
+    color: #f500a3; 
+    font-size: 80px;
+    font-family: 'Rubik', sans-serif;    
+    margin: 100px; 
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    text-shadow: 10px 1px rgb(43, 6, 61);
+    background-image: url(./IMG/pa.jpg);
+    background-color: #f2a2b5;
+    background-position: center;
+    background-size: 2000px;
+    box-shadow: 0px 10px 150px 10px #d40b47;
+    border-radius: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+    
+h2{ /*Todos los subtitulos con h2 tendrán sombra, alineación centrica, un fondo con imagen, una sombra de bloque y una fuente distintas. */
+    color: #dd47e2;
+    text-shadow: 1px 3px rgb(192, 124, 231);
+    font-family: 'Comfortaa', cursive;
+    text-align: center; 
+    background-color: rgb(255, 176, 229);
+    background-image: url(./IMG/pa3.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    box-shadow: 10px 10px 10px rgb(250, 101, 183);
+}
+
+p{ /*Los párrafos de la página web tendrán una fuente distinta, un color distinto y un poco de sombra en el texto. */
+    font-size: 25px;
+    text-align: center; 
+    font-family: 'Cabin', sans-serif;    
+    color: rgb(38, 15, 43);
+    text-shadow: 0px 1px rgb(255, 201, 255);
+}
+
+i{ /*Todas las letras que contengan italicas serán de un color y tamaño distintos. */
+    color: rgb(179, 82, 179);
+    font-size: 25px;
+}
+
+b{ /*Todos los elementos con b serán de color rosa, para resaltar y llevar los colores de acuerdo a la página. */
+    color: rgb(255, 19, 255);
+}
+
+.img{ /*Las imágenes que tengan esta clase serán de un tamaño específico y una forma específica. */
+    width: 400px; 
+    display:block;
+    margin:auto;
+    border-radius: 100px 100px;
+}
+
+.imagen{ /*Esta imágen es más grande que las demás incluso con tamaño determinado, por eso le hice una clase distinta y la hice más pequeña. */
+    width: 300px; 
+    display:block;
+    margin:auto;
+    border-radius: 100px 100px;
+}
+dt{ /*Los títulares de las listas serán un poco más grandes y de un color distinto con estos valores. */
+    font-size: 23px;
+    color: #c51bf0;
+}
+
+dd{ /*Los detalles de la lista serán de un tamaño menor. */
+    font-size: 22px;
+}
+
+hr{ /*En el divisor de la página para dar concluida la información, en base a la temática de la página web cambié el color del mismo. */
+    color: rgb(221, 44, 221);
+}
+
+footer{ /*El pie de página tiene estos elementos para cambiar su forma, tamaño, sombra y estilo de fondo. */
+    background: rgb(255, 162, 201); 
+    text-align: center; 
+    border-radius: 100px; 
+    border-width: 5px; 
+    border-color: rgb(163, 17, 192); 
+    border-style: solid;
+    background-image: url(./IMG/pa4.jpg);
+    background-size: 2280px;
+    background-repeat: no-repeat;
+    border-radius: 100px 100px;
+
+}
+
+.info{ /*Clase para la información en el pie de página, solo se cambia el color conforme a la temática. */
+    color: rgb(65, 1, 65)
+}
+
+.fuentes{ /*Una separación en la parte superior a las fuentes de información para que se vea alineado. */
+    padding-top: 15px;
+}
+
+.logo2{ /*Versión del logo dos, donde cambia el tamaño y los valores conforme al primero, hecho especificamente para el pie de página. */
+    padding-left: 8%;
+    width: 70px;
+    min-width: 80px; 
+   float:left;
+}
+
+.redes{ /*Tamaño de las imagenes de las redes sociales. */
+    width: 30px; 
+    min-width: 60px
+}
+
+.redes2{ /*Una imágen de las redes sociales era más grande, por tanto creé otra clase con atributos más pequeños. */
+    width: 20px; 
+    min-width: 48px;
+}
+
+.a{ /*Color y fuente de los links con redireccionamiento. */
+    color: rgb(138, 7, 253);
+    font-family: 'Comfortaa', cursive;
+}
+
+.a:hover{ /*Cambia el color y tamaño de los links cuando ponen el click encima. */
+    color: rgb(230, 36, 188);
+    font-size: 30px;
+}
+
+.a:active{ /*Color del link cuando le dan click. */
+    color: rgb(27, 151, 233);
+}
+
+.a:visited{ /*Color del link una vez se visita. */
+    color: rgb(219, 15, 100);
+}
